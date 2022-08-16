@@ -1,0 +1,21 @@
+{
+	"name": "LS_SINK",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SINK",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "movie"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
